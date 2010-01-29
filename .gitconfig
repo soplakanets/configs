@@ -1,0 +1,10 @@
+[user]
+	name = Serhiy Oplakanets
+	email = serhiy@oplakanets.com
+[color]
+	ui = always
+
+[alias]
+        ci = commit
+        st = status
+
