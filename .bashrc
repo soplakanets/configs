@@ -6,3 +6,7 @@ fi
 # Ignore duplicates in history.
 export HISTCONTROL=ignoreboth
 
+if [ -f ~/.git-completion.bash ]; then
+    source ~/.git-completion.bash
+fi
+
