@@ -3,8 +3,8 @@
 	email = serhiy@oplakanets.com
 [color]
 	ui = always
-
 [alias]
         ci = commit
         st = status
-
+[core]
+        excludesfile = /Users/soplakanets/.gitexcludes
