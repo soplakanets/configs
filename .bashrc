@@ -1,6 +1,6 @@
 # Enable color support of ls.
 if [ "$TERM" != "dumb" ]; then
-    alias ls='ls -G'
+    alias ls='ls -GF'
 fi
 
 # Ignore duplicates in history.
