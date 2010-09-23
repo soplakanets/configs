@@ -14,7 +14,7 @@ if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
 fi
 
-PATH="/usr/local/mysql/bin/:/Users/soplakanets/Workspace/bin:$PATH"
+PATH="/Users/soplakanets/Workspace/bin:$PATH"
 export PATH
 
 EDITOR="vim"

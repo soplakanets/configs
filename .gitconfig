@@ -2,7 +2,7 @@
 	name = Serhiy Oplakanets
 	email = serhiy@oplakanets.com
 [color]
-	ui = always
+	ui = auto
 [alias]
         ci = commit
         st = status
