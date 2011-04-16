@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+TARGET="${HOME}"
+SOURCE="${PWD}"
+SELF=`basename $0`
+
+for f in `ls -A1| grep -v $SELF`; do
+    ln -s ${SOURCE}/${f} ${TARGET}/${f}
+done
+
+echo "DONE."
+
