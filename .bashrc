@@ -14,8 +14,9 @@ if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
 fi
 
-PATH="/Users/soplakanets/Workspace/bin:/usr/local/bin:/usr/local/Cellar/python/2.7/bin:$PATH"
-export PATH
+if [ -f ~/.bashrc.local ]; then
+    source ~/.bashrc.local
+fi
 
 EDITOR="vim"
 export EDITOR
