@@ -8,3 +8,5 @@
         st = status
 [core]
         excludesfile = /Users/soplakanets/.gitexcludes
+[github]
+	user = soplakanets

@@ -6,4 +6,5 @@ exec_vagrant() {
 }
 
 alias vagrant='exec_vagrant'
+alias ll='ls -latrh'
 
