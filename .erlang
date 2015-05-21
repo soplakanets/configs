@@ -1,3 +1,0 @@
-%% Start reloader module.
-code:load_abs(os:getenv("HOME") ++ "/.configs/.erl/reloader").
-reloader:start().
