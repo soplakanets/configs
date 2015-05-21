@@ -4,7 +4,7 @@ TARGET="${HOME}"
 SOURCE="${PWD}"
 SELF=`basename $0`
 
-for f in `ls -A1| grep -v $SELF`; do
+for f in `ls -A1 | grep -v $SELF | grep -v '\.git'`; do
     ln -s -f ${SOURCE}/${f} ${TARGET}/${f}
 done
 
